@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-     "start": "react-native start",
+    "start": "react-native start",
     "test": "node node_modules/jest/bin/jest.js --watch",
     "ios": "react-native run-ios --simulator='iPhone XR'",
     "android": "react-native run-android",
@@ -11,8 +11,22 @@
     "build:android": "react-native run-android --variant=release"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "humps": "^2.0.1",
+    "moment": "^2.24.0",
     "react": "16.8.3",
-    "react-native": "0.59.1"
+    "react-native": "0.59.1",
+    "react-navigation": "^3.4.1",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-axios-middleware": "^4.0.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-form": "^8.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-persist-sensitive-storage": "^1.0.0",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "7.3.4",
